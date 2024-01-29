@@ -40,3 +40,28 @@
 .read-the-docs {
   color: #888;
 }
+
+table{
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+th,td{
+  text-align: center;
+  border: 1px solid #ccc;
+  padding-top: 0.5cm;
+}
+
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=button]{
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}

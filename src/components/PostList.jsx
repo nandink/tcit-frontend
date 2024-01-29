@@ -34,17 +34,28 @@ function PostList(){
             />
             </div>
         </div>
+        <br/>
         <div>
-            
-            <ul>
-                {filteredPosts.map((post) => (
-                    <li key={post.id}>
-                        <h3>{post.title}</h3>
-                        <p>{post.description}</p>
-                        <input type="button" value="Delete" onClick={()=>{deletePost(post.id)}} />
-                    </li>
-                ))}
-            </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th> <strong>Title</strong></th>
+                        <th><strong>Description</strong></th>
+                        <th><strong>Action</strong></th>
+                    </tr>
+                </thead>
+                <tbody> 
+                    {filteredPosts.map((post) => (
+                        <tr key={post.id}>
+                            <td>{post.title}</td>
+                            <td>{post.description}</td>
+                            <td>
+                                <input type="button" value="Delete" onClick={()=>{deletePost(post.id)}} />
+                            </td>
+                        </tr>
+                    ))}
+                 </tbody>
+            </table>
 
         </div>
         </>

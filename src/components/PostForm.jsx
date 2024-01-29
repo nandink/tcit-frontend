@@ -18,6 +18,8 @@ function PostForm(){
 
     return (
         <form onSubmit={handleSubmit}>
+            <strong>   Add Post </strong>
+            <br/>
             <label>
                 Title:
                 <input type= "text" name="title" />
