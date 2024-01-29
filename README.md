@@ -1,15 +1,22 @@
 # TCIT Frontend Challenge
 
-In order to run this proyect you need to first:
-- Install dependencies: `npm install`
+This is the frontend component of the app.
 
-Then, the Front-End server can be exposed via the command
+## Prerequisites
+- Node.js
+- npm (Node Package Manager)
 
-- Run the Fron-End `npm start`
+## Instalation guide
+
+In order to run the proyect, you first need to:
+
+1. Clone the repository
+2. Install the dependencies: `npm install`
+3. Run the Fron-End `npm start`
 
 After a few seconds, the server will be running locally in the url: <http://localhost:5173/>
 
-In order to run this proyect, the following dependencies need to be installed
+## Dependencies
 
 - `"@types/react": "^18.2.43"`
 - `"@types/react-dom": "^18.2.17" `
