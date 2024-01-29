@@ -1,8 +1,21 @@
-# React + Vite
+# TCIT Frontend Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In order to run this proyect you need to first:
+- Install dependencies: `npm install`
 
-Currently, two official plugins are available:
+Then, the Front-End server can be exposed via the command
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Run the Fron-End `npm start`
+
+After a few seconds, the server will be running locally in the url: <http://localhost:5173/>
+
+In order to run this proyect, the following dependencies need to be installed
+
+- `"@types/react": "^18.2.43"`
+- `"@types/react-dom": "^18.2.17" `
+- `"@vitejs/plugin-react": "^4.2.1" `
+- `"eslint": "^8.55.0" `
+- `"eslint-plugin-react": "^7.33.2" `
+- `"eslint-plugin-react-hooks": "^4.6.0" `
+- `"eslint-plugin-react-refresh": "^0.4.5" `
+- `"vite": "^5.0.8" `
