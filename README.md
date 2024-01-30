@@ -12,7 +12,7 @@ In order to run the proyect, you first need to:
 
 1. Clone the repository
 2. Install the dependencies: `npm install`
-3. Run the Fron-End `npm start`
+3. Run the Fron-End `npm run dev`
 
 After a few seconds, the server will be running locally in the url: <http://localhost:5173/>
 
